@@ -11,6 +11,6 @@ The list provides a unique EPID with a single product name (composed of the acti
 
 ## Reference Lists
 This repository contains reference lists to link the EPID to other available pharmaceutical databases. The following systems are availale:
-- [Health Canada Drug Product Database Data Extracts](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html): EPID to DRUG_CODE and EPID to DIN - ***IN DEVELOPMENT***
-- [Alberta Blue Cross Interactive Drug Benefit List](https://idbl.ab.bluecross.ca/idbl/load.do): EPID to productID - ***IN DEVELOPMENT***
-- Albert Netcare Pharmaceutical Information Network: EPID to Medication Name/Strength/Dosage Form - ***IN DEVELOPMENT***
+- [Health Canada Drug Product Database Data Extracts](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html): *EPID* to *DRUG_CODE* and *EPID* to *DIN* - ***IN DEVELOPMENT***
+- [Alberta Blue Cross Interactive Drug Benefit List](https://idbl.ab.bluecross.ca/idbl/load.do): *EPID* to *productID* - ***IN DEVELOPMENT***
+- Albert Netcare Pharmaceutical Information Network: *EPID* to *Medication Name/Strength/Dosage Form* - ***IN DEVELOPMENT***
