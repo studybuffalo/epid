@@ -17,16 +17,6 @@ EPID Standard
 
 The structure and format of the EPID is defined by the EPID Standard.
 
-----------
-Versioning
-----------
-
-The EPID uses a MAJOR.MINOR versioning system. Versions refer to the EPID
-Standard and **not** updates to the actual EPID data. Between minor versions,
-there should be minimal changes required by the end user. Between major 
-versions, there will be moderate to significant changes required by the end 
-user.
-
 -------
 License
 -------
