@@ -2,6 +2,11 @@
 Equivalent Pharmaceutical ID Standard
 =====================================
 
+|Version|
+
+.. |Version| image:: https://img.shields.io/badge/EPID%20Standard-1.0-blue
+   :alt: EPID Standard Version 1.0
+
 The Equivalent Pharmaceutical ID (EPID) outlines how EPID data is formatted.
 
 --------
@@ -46,7 +51,7 @@ purposes. The following are the naming conventions for ingredients:
   changed to ``levothyroxine`` as the ``sodium`` component adds no additional
   value or clarity to the ingredient.
 
-- Ingredients take the most concise naming possible. Bases, esthers, salts, 
+- Ingredients take the most concise naming possible. Bases, esters, salts, 
   etc. should only be included in the ingredient name if they add necessary
   clarity between closely related ingredients. For example, 
   ``pantoprazole sodium`` and ``pantoprazole magnesium`` would be used as both
@@ -79,6 +84,9 @@ used for strengths:
     vaccine always given at 0.5 mL); these will be represnted by the the 
     administered volume.
 
+- Units are represented in metric and use the formating as outlined by the
+  International System of Units (SI units).
+
 Dosage Forms
 ============
 
@@ -101,6 +109,44 @@ The following are conventions used for dosage forms:
 - Long-acting formulations (e.g. ``sustained release``, 
   ``extended release``) are represented as ``long acting`` following the 
   dosage form.
+
+- Units are always separated from the numeric value by a single space 
+  character (e.g. ``1 mg``).
+
+  - **Exception:** percents (``%``) immediately follow the number 
+    (e.g. ``1%``)
+
+Medications
+===========
+
+**Medication** records are the sum of the ingredient(s), strength(s), and 
+dosage form for a pharmaceutical product. Each individual component can be
+individually referenced by the medication ID. Each medication record also 
+contains a name that is the sum of all components.
+
+The following conventions are used for medication names:
+
+- A medication name is made up of an ingredient name, followed by the 
+  strength and the dosage form (e.g. ``acetaminophen 500 mg table``).
+
+- In cases where a medication have multiple ingredients:
+
+  - Each ingredient and strength pair are listed and separated by an asterisk 
+    before the dosage form (e.g. 
+    ``codeine 60 mg * acetaminophen 500 mg tablet``).
+
+  - In most cases, ingredients will be listed in alphabetical order, with the
+    following exceptions:
+
+    - Ingredients with clinical effects are listed before other ingredients 
+      that do not exert a clinical effect (e.g. ``amoxicillin`` would be 
+      listed before ``clavulanate``).
+
+    - Combinations including acetaminophen will list the other ingredients 
+      before the acetaminophen component.
+
+Equivalent Medications
+======================
 
 ----------
 Versioning
